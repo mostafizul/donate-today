@@ -114,6 +114,33 @@ body{
 .donate-plan-card p{
     color: #545252;
 }
+.contribute{
+    margin-top: 180px;
+}
+.donation-part{
+    display: flex;
+    align-items: center;
+}
+.donation-content{
+    flex-basis: 60%;
+    padding: 5%;
+}
+.donation-content h1{
+    font-size: 60px;
+}
+.donation-content p{
+    margin: 50px 0px;
+    color: #575757;
+}
+.donation-img{
+    flex-basis: 50%;
+}
+.donation-img img{
+    width: 94%;
+    height: 550px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
 /* media queries for responsive */
 
 @media screen and (max-width: 790px) {
