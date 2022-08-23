@@ -162,15 +162,18 @@ body{
 form{
     width: 60%;
     margin: 0 auto;
-    background-color: #FFF4D6;
+    background-color: #f3e5be;
     padding: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;   
+    border-radius: 5px;
 }
 form input{
-    width: 60%;
+    width: 80%;
     height: 40px;
     padding: 5px;
     border-radius: 5px;
     font-size: 22px;
+    border: none;
 }
 .Subscribe{
     background-color: #FF5959;
@@ -178,51 +181,20 @@ form input{
     font-size: 24px;
     font-weight: bolder;
     border-radius: 9px;
-    width: 62%;
+    width: 82%;
     height: 60px;
     border: none;
-    margin: 30px 0px;
+    margin: 40px 0px;
 }
-/* media queries for responsive */
-
-@media screen and (max-width: 790px) {
-    .banner-container{
-        width: 100%;
-        top:50%
-    }
-    .banner{
-        height: 100vh;
-    }
-    .donate-amount{
-        flex-direction: column;
-    }
-    .donate-amount h1{
-        margin: 10px 30px;
-        padding: 20px;
-    }
-    .donate-plan-card{
-        flex-direction: column;
-    }
-    .donate-plan-card div{
-        width: 90%;
-        margin: 25px 0px;
-        text-align: justify;
-        padding: 50px 20px;
-    }
-    .donation-part{
-        flex-direction: column-reverse;
-        text-align: center;
-    }
-    .survive-part{
-        flex-direction: column;
-        text-align: center;
-    }
-    .survive-img img{
-        margin-top: 50px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    .donation-img img{
-        margin-right: 0px;
-    }
-  }
+footer{
+    margin-top: 90px;
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+footer p{
+    margin-top: 23px;
+    font-size: 21px;
+}
